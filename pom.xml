@@ -21,6 +21,7 @@
         <spring.cloud.alibaba.version>2022.0.0.0-RC2</spring.cloud.alibaba.version>
         <mysql.version>8.0.33</mysql.version>
         <druid.version>1.2.16</druid.version>
+        <swagger.version>2.4.0</swagger.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -54,6 +55,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
