@@ -1,5 +1,6 @@
 package com.virgo.cloud.domain;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -9,17 +10,22 @@ import java.util.Objects;
 @SuppressWarnings({"unused"})
 @Entity
 @Table(name = "T_PAY")
+@Schema(title = "支付流水DTO")
 public class Pay implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", length = 19, nullable = false)
+    @Schema(title = "主键ID")
     private Long id;
     @Column(name = "payno", length = 64, nullable = false)
+    @Schema(title = "支付流水号")
     private String payNo;
     @Column(name = "orderno", length = 64, nullable = false)
+    @Schema(title = "订单号")
     private String orderNo;
     @Column(name = "amount", precision = 8, scale = 2, nullable = false)
+    @Schema(title = "金额")
     private BigDecimal amount;
     @Column(name = "deleted", length = 4, nullable = false)
     private int deleted;

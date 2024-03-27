@@ -4,12 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example.cloud</groupId>
-    <artifactId>vrigocloud</artifactId>
+    <groupId>com.virgo.cloud</groupId>
+    <artifactId>virgocloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
+        <module>cloud-commons-core</module>
         <module>cloud-provider-payment-8001</module>
+        <module>cloud-consumer-order-80</module>
     </modules>
 
     <properties>

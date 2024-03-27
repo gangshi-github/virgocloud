@@ -54,10 +54,6 @@ public class PayController {
     @GetMapping("/{id}")
     @Operation(summary = "查询数据方法", description = "参数：主键ID")
     public ResponseEntity<String> findById(@PathVariable(name = "id") Long id) {
-
-        if (id < 0) {
-            throw new RuntimeException("查询ID不能为非正整数！");
-        }
         PayDTO payDTO = new PayDTO();
         Optional<Pay> optional = payService.findById(id);
         Pay pay = null;
