@@ -17,7 +17,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/pay")
+@RequestMapping("/provider/pay")
 @Validated
 @Tag(name = "支付微服务模块", description = "CRUD")
 public class PayController {
