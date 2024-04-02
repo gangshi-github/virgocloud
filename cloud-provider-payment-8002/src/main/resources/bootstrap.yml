@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cloud-payment-service
+  cloud:
+    consul:
+      config:
+        format: yaml
+        profile-separator: '-'
+        watch:
+          wait-time: 55
+      host: localhost
+      port: 8500
+      discovery:
+        health-check-path: ${server.servlet.context-path}/actuator/health
+        service-name: ${spring.application.name}

@@ -12,6 +12,7 @@
         <module>cloud-commons-core</module>
         <module>cloud-provider-payment-8001</module>
         <module>cloud-consumer-order-80</module>
+        <module>cloud-provider-payment-8002</module>
     </modules>
 
     <properties>
