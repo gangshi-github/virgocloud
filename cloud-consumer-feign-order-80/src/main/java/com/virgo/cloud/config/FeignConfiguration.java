@@ -14,7 +14,7 @@ public class FeignConfiguration {
      * 3.maxPeriod 重试最大时间间隔 (s)
      * 4.httpclient 默认使用JDK原生HttpUrlConnection发送Http请求
      * <p>
-     * return new Retryer.Default(100, 1, 3);
+     * Retryer.NEVER_RETRY
      */
     @Bean
     public Retryer retryer() {
