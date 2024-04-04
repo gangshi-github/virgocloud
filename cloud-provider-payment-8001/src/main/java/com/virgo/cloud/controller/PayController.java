@@ -6,6 +6,8 @@ import com.virgo.cloud.service.PayService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.cglib.beans.BeanCopier;
 import org.springframework.http.HttpStatus;
@@ -13,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -21,6 +24,8 @@ import java.util.Optional;
 @Validated
 @Tag(name = "支付微服务模块", description = "CRUD")
 public class PayController {
+
+    private static final Log log = LogFactory.getLog(PayController.class);
     @Resource
     PayService payService;
 
@@ -53,7 +58,14 @@ public class PayController {
 
     @GetMapping("/{id}")
     @Operation(summary = "查询数据方法", description = "参数：主键ID")
-    public ResponseEntity<String> findById(@PathVariable(name = "id") Long id) {
+    public ResponseEntity<String> findById(@PathVariable(name = "id") Long id) throws InterruptedException {
+        log.info("查询支付微服务数据请求开始访问：" + LocalDateTime.now());
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            log.info("查询支付微服务数据请求结束访问：" + LocalDateTime.now());
+            throw new InterruptedException();
+        }
         PayDTO payDTO = new PayDTO();
         Optional<Pay> optional = payService.findById(id);
         Pay pay = null;
