@@ -20,4 +20,9 @@ public interface PayFeignClient {
 
     @GetMapping("/virgoCloud/provider/consul/")
     ResponseEntity<String> feignLoadbalancer();
+
+
+    @GetMapping("/virgoCloud/provider/feign/")
+    ResponseEntity<String> feign();
+
 }
