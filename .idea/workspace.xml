@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b9b506-fd6a-4575-b2bf-975a5a187b07" name="Changes" comment="1.新增OpenFeign">
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-core/target/classes/com/virgo/cloud/domain/dto/PayDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-core/target/classes/com/virgo/cloud/domain/dto/PayDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-core/target/classes/com/virgo/cloud/exception/ExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-core/target/classes/com/virgo/cloud/exception/ExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-core/target/classes/com/virgo/cloud/feign/PayFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-core/target/classes/com/virgo/cloud/feign/PayFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/classes/com/virgo/cloud/MainFeignApplication80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/classes/com/virgo/cloud/MainFeignApplication80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/classes/com/virgo/cloud/config/FeignConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/classes/com/virgo/cloud/config/FeignConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/classes/com/virgo/cloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/classes/com/virgo/cloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/virgo/cloud/MainApplication80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/virgo/cloud/MainApplication80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/virgo/cloud/config/RestTemplateConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/virgo/cloud/config/RestTemplateConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/virgo/cloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/virgo/cloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/virgo/cloud/controller/ConsulController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/virgo/cloud/controller/ConsulController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/virgo/cloud/service/impl/PayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/virgo/cloud/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/MainApplication8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/MainApplication8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/config/SwaggerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/controller/ConsulController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/controller/ConsulController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/domain/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/domain/Pay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/repository/PayRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/repository/PayRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/service/impl/PayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/virgo/cloud/service/impl/PayServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/MainApplication8002.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/MainApplication8002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/config/SwaggerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/controller/ConsulController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/controller/ConsulController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/domain/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/domain/Pay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/repository/PayRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/repository/PayRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/service/impl/PayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/virgo/cloud/service/impl/PayServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +55,18 @@
     &quot;assignee&quot;: &quot;gangshi-github&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gangshi-github/virgocloud.git&quot;,
-    &quot;accountId&quot;: &quot;bedc33ca-54c1-4499-82a8-79ac30e05512&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gangshi-github/virgocloud.git",
+    "accountId": "ff8154b0-cd6d-442d-954a-e7f316c622cc"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:\Program Files\apache-maven-3.9.1-bin\apache-maven-3.9.1" />
+        <option name="customMavenHome" value="D:\apache\maven-3.9.1\maven" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="useMavenConfig" value="false" />
-        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.1-bin\apache-maven-3.9.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\apache\maven-3.9.1\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -55,43 +81,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.virgocloud [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.MainApplication80.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MainApplication8001.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MainApplication8002.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MainFeignApplication80.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/WORKSPACE/Hub/cloud/trunk/virgocloud&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.virgocloud [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.MainApplication80.executor": "Run",
+    "Spring Boot.MainApplication8001.executor": "Run",
+    "Spring Boot.MainApplication8002.executor": "Run",
+    "Spring Boot.MainFeignApplication80.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/github/repository/cloud/trunk/virgocloud",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -159,8 +186,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -199,6 +226,27 @@
       <workItem from="1712762810692" duration="244000" />
       <workItem from="1714484310705" duration="182000" />
       <workItem from="1714484494830" duration="59000" />
+      <workItem from="1714484582511" duration="97000" />
+      <workItem from="1714628693685" duration="542000" />
+      <workItem from="1714654267081" duration="201000" />
+      <workItem from="1714654476009" duration="247000" />
+      <workItem from="1714654738109" duration="251000" />
+      <workItem from="1714655001841" duration="153000" />
+      <workItem from="1714655160122" duration="743000" />
+      <workItem from="1714655917353" duration="511000" />
+      <workItem from="1714726226045" duration="28000" />
+      <workItem from="1714726279729" duration="52000" />
+      <workItem from="1730596185929" duration="1551000" />
+      <workItem from="1731161310047" duration="10000" />
+      <workItem from="1732290437959" duration="75000" />
+      <workItem from="1732290520259" duration="348000" />
+      <workItem from="1732290875246" duration="461000" />
+      <workItem from="1732292373133" duration="107000" />
+      <workItem from="1732292486152" duration="1166000" />
+      <workItem from="1732293734374" duration="586000" />
+      <workItem from="1732294326054" duration="207000" />
+      <workItem from="1732325778604" duration="54000" />
+      <workItem from="1735449470950" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="1.重构commons-core&#10;2.新增服务模块">
       <option name="closed" value="true" />
@@ -264,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714484346435</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.新增OpenFeign">
+      <option name="closed" value="true" />
+      <created>1714484629808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714484629808</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

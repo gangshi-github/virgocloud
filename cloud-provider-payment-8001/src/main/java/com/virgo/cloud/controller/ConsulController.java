@@ -17,4 +17,7 @@ public class ConsulController {
     public ResponseEntity<String> getConsulServiceConfig(@Value("${virgo.info}") String key) {
         return ResponseEntity.ok("Consul Config：" + key + "\t" + "server port: " + port);
     }
+
+
+
 }
